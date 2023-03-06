@@ -1,7 +1,10 @@
 // BMI Calculator
+// So I am going to make simple BMI calculator which will tell you your health status..!
+
 var weight = 58;
 var height = 1.60;
 
+// Formula for BMI
 var BMI = weight / (height * height);
 
 if (BMI < 18.5) {
