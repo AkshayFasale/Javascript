@@ -5,3 +5,11 @@ const strUpperCase = str.toUpperCase();
 
 //output
 console.log(strUpperCase);
+
+//03. Declare a varibale and assign string value to it and change all the string characters to capital letters using toUpperCase() method.
+
+const str1 = "Hello! This is Akshay Fasale";
+const str1UpperCase = str.toLowerCase();
+
+//output
+console.log(str1UpperCase);

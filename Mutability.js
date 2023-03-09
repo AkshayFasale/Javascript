@@ -17,10 +17,3 @@ console.log(str) //"Akshay"
 
 //Here you can see that first character of string str has not changed Because String is immutable
 
-let arra = [11, 22, 33, 44, 55, 66];
-console.log(arra); //[11, 22, 33, 44, 55, 66]
-
-let str1 = arra.toString();
-console.log(str1) //11,22,33,44,55,66
-console.log(typeof str1); //string
-console.log(arra) //[11, 22, 33, 44, 55, 66]
