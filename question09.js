@@ -2,7 +2,7 @@
 - Write three JavaScript statement example which provide truthy value.
 - Write three JavaScript statement example which provide falsy value.*/
 
-//Falsy values : Falsy values are not exaclty false but when we try to convert them into boolean they becomes false.
+// Falsy values : Falsy values are not exaclty false but when we try to convert them into boolean they becomes false.
 // There are only 5 falsy values in JS e.g. 0, undefined, null, NaN, ""(empty string)
 
 console.log(Boolean(null));
