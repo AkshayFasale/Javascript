@@ -54,4 +54,23 @@ function sum4(arr) {
 
 let sumarray = [1, 2, 3, 4, 5, 6];
 let arrresult = sum4(sumarray);
-console.log(arrresult);
+console.log(arrresult); 
+
+//Arrow function
+
+let arro = (arr1, arr2) => {
+    console.log("I am god", arr1, arr2);
+}
+
+arro(1,2)
+
+// For in
+const username = {
+    firstName: "Akshay",
+    lastName: "Fasale",
+    role: 'Admin',
+    loginCount: 25,
+}
+for (let x in username) {
+    console.log(username[x]);
+}
