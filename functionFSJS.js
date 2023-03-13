@@ -74,3 +74,32 @@ const username = {
 for (let x in username) {
     console.log(username[x]);
 }
+
+//CN
+function a() {
+    console.log("Inside a");
+
+    function b() {
+        console.log("Inside b");
+    }
+    b();
+}
+
+a()
+
+//Passing function as a Arguments
+var add1 = function (a, b) {
+    return a + b;
+}
+
+var subtract = function (a, b) {
+    return a - b;
+}
+
+var op = function (func) {
+    var x = 2;
+    var y = 3;
+    return func(x, y);
+}
+console.log(op(subtract));
+
