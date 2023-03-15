@@ -103,3 +103,55 @@ var op = function (func) {
 }
 console.log(op(subtract));
 
+//
+var a2 = 11;
+function f1() {
+    var a1 = 10;
+}
+console.log(a2);
+// console.log(a1);
+
+//
+console.log(greeter);
+var greeter = "say hello"
+
+
+//
+var a = 1;
+
+function b() {
+    a = 10;
+    return;
+    function a() { }
+}
+
+b();
+console.log(a);
+
+//
+function f(a, b = 1) {
+    console.log(a * b)
+}
+var x = // some hidden  value
+    f(5, x)
+//
+let var1 = "Its global";
+let num = 4;
+
+
+if (num > 3) {
+    let hello = "Its local in block..!";
+    console.log(hello);// "Its local in block..!"
+}
+console.log(hello) // hello is not defined
+
+var var2 = "Its global";
+var num1 = 4;
+
+
+if (num1 > 3) {
+    var helloo = "Its local in block..!";
+    console.log(helloo);// "Its local in block..!"
+}
+console.log(helloo) // hello is not defined
+
