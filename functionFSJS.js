@@ -143,7 +143,7 @@ if (num > 3) {
     let hello = "Its local in block..!";
     console.log(hello);// "Its local in block..!"
 }
-console.log(hello) // hello is not defined
+// console.log(hello) // hello is not defined
 
 var var2 = "Its global";
 var num1 = 4;
@@ -154,4 +154,3 @@ if (num1 > 3) {
     console.log(helloo);// "Its local in block..!"
 }
 console.log(helloo) // hello is not defined
-
