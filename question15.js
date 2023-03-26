@@ -41,7 +41,7 @@ function checkGrad(marks) {
     } else if (marks >= 0 && marks <= 49) {
         return `Very Bad Performance😠! You have obtained F grade.`
     } else {
-        console.log("Your score is not between 0 to 100");
+        return "Invalid marks entered. Please enter marks between 0 to 100.";
     }
 }
 
