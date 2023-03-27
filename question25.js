@@ -12,18 +12,19 @@ function checkBMI(weight, height) {
     console.log(`Your BMI is ${BMI}`);
 
     if (BMI < 18.5) {
-        console.log("You are Underweight");
+        console.log("You are Underweight\n");
     }
     else if (BMI > 18.6 && BMI < 24.9) {
-        console.log("You are Healthy");
+        console.log("You are Healthy\n");
     }
     else if (BMI > 25 && BMI < 25.9) {
-        console.log("You are Overweight ");
+        console.log("You are Overweight\n");
     }
     else {
-        console.log("You are obese");
+        console.log("You are obese\n");
     }
 }
+checkBMI(40, 1.5)
 
 const perWeight = 48;
 const perHeight = 1.5;
