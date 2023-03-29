@@ -11,7 +11,6 @@ for (let i = 1; i <= 10; i++) {
   
     const table = i * num;
     console.log(`${num} * ${i} = ${table}`);
-
 }
 // 5 * 1 = 5
 // 5 * 2 = 10
@@ -23,3 +22,25 @@ for (let i = 1; i <= 10; i++) {
 // 5 * 8 = 40
 // 5 * 9 = 45
 // 5 * 10 = 50
+
+//using function
+
+function printTable(num1) {
+    for (let i = 1; i <= 10; i++){
+        const table1 = i * num1;
+        console.log(`${num1} * ${i} = ${table1}`);
+    }
+}
+
+let num1 = 10;
+printTable(num1);
+// 10 * 1 = 10
+// 10 * 2 = 20
+// 10 * 3 = 30
+// 10 * 4 = 40
+// 10 * 5 = 50
+// 10 * 6 = 60
+// 10 * 7 = 70
+// 10 * 8 = 80
+// 10 * 9 = 90
+// 10 * 10 = 100
