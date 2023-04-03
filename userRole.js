@@ -17,4 +17,7 @@ function userRole(name, role) {
 console.log(userRole("Akshay", "admin"));
 console.log(userRole("Akshay", "Subadmin"));
 console.log(userRole("Akshay", ""));
+
+var getRole = userRole("Fasale", "testPrep");
+console.log(getRole);
 //Akshay is a Admin person..!
