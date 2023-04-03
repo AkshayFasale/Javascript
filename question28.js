@@ -11,3 +11,15 @@ function triangle(n) {
         console.log("*".repeat(n + i - 2));
 }
 triangle(3);
+
+/*b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+       ***
+       ***
+       ***       */
+
+function square(n) {
+    for (let i = 0; i <= n; i++){
+        console.log("*".repeat(n));
+    }
+}
+square(3);
