@@ -18,3 +18,7 @@ function b() {
     var x = 100;
     console.log(x);
 }
+
+// 10
+// 100
+// 1
