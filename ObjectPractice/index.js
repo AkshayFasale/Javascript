@@ -4,6 +4,19 @@ const a = new Object();
 a.foo = 42;
 console.log(a);
 
+//
+const userName = {
+    FirstName: 'Akshay',
+    LastName: 'Fasale',
+    RollNo: 000,
+}
+// console.log(userName)
+// console.log(userName.FirstName);
+
+for (let x in userName) {
+    console.log(userName);
+    console.log(userName[x]);    
+}
 // Object assign
 
 const target = { a: 1, b: 2 };
