@@ -6,12 +6,16 @@
 You can access elements (Manipuate DOM..!) using different methods
 
 ### Getting Element by ID
-To can select the element using this unique method `GetElementById()`
+To can select the element using this unique method `document.GetElementById()`
 
 ### Getting Element by ClassName
+To can select the element using this unique method `document.GetElementByClass()`
 
 ### Getting Element by TagName
+To can select the element using this unique method `document.GetElementByTagName()`
 
 ### Getting Element by querySelector
+To can select the element using this unique method `document.querySelector()`
 
 ### Getting Element by SquerySelectorAll
+To can select the element using this unique method `document.querySelectorAll()`
