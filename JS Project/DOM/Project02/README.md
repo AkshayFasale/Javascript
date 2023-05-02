@@ -1,4 +1,4 @@
-# [Modal](https://dom-project02.netlify.app/){:target="_blank"}
+# <a href="https://dom-project02.netlify.app/" target="_blank">Modal </a>
 ## Key concepts for project
 
 
