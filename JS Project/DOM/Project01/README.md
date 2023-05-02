@@ -1,3 +1,3 @@
 ### Working on Query selector project to get handon
 
-In this project i leanred hoe to use query selector and eventlistener
+In this project i learned how to use query selector and eventlistener
