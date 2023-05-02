@@ -1,4 +1,4 @@
-# Project 03 -  <a href="dom-project03.netlify.app" target="_blank">Accordion</a>
+# Project 03 -  <a href="https://dom-project03.netlify.app/" target="_blank">Accordion</a>
 ## Learning
 
 ## Key concepts for Project
