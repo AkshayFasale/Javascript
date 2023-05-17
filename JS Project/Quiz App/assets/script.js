@@ -1,3 +1,13 @@
+
+let time = document.getElementsByClassName("seconds");
+const button = document.querySelector(".btn");
+
+button.addEventListener("click", startQuiz);
+function startQuiz() {
+  
+}
+
+
 const questions = [
   {
     questionText: "Commonly used data types DO NOT include:",
