@@ -48,5 +48,14 @@ function stopwatch() {
 
     let displaytimer = document.getElementById('timer').innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds;
 }
+resetBtn.addEventListener('click', function() {
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    leadingSeconds = "00";
+    leadingMinutes = "00";
+    leadingHours = "00";
+    document.getElementById('timer').innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds;
+});
 
-// window.setInterval(stopwatch, 1000)
+window.setInterval(stopwatch, 1000)
