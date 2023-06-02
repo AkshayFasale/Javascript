@@ -4,7 +4,7 @@ function areaOfCircle(r) {
     const pi = Math.PI;
     let area = pi * r * r;
 
-    console.log(`Area of square is ${area.toFixed(2)}`);
+    console.log(`Area of circle is ${area.toFixed(2)}`);
 }
 
 areaOfCircle(3.2); // Area of square is 32.17
