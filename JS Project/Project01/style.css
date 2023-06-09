@@ -7,29 +7,29 @@
 body {
     width: 100vw;
     height: 100vh;
-    /* border: 2px solid red; */
+
     background-color: black;
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2em;
+    align-items: flex-end;
+    cursor: pointer;
     overflow: hidden;
+
 }
 
-
 .circle {
-    height: 30px;
-    width: 30px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     left: 0;
-    top: 0;
     right: 0;
+    top: 0;
     bottom: 0;
-    transform: scale(0);
-    transition: transform 500ms ease-in-out;
+    transition: all 350ms ease-in-out;
     color: black;
     font-size: 3rem;
     display: flex;
@@ -51,10 +51,6 @@ body {
     align-items: center;
     margin-bottom: 20px;
     transition: all 350ms ease-in-out;
-}
-
-.btn:active {
-    scale: 0.95;
 }
 
 .btn:hover {
